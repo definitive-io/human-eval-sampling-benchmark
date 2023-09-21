@@ -10,7 +10,7 @@ We include an example run for different values of `temperature` and `top_p` rang
 ![pass@1 peformance plot for various values of temperature and top_p](images/plot-0.0-1.0-0.2-36-combinations.png)
 
 ## Instructions
-Make sure you have `make` installed. It's recommended to create and activate a virtual environment before running the make commands.
+Make sure you have `make` and `Python 3` installed. It's recommended to create and activate a virtual environment before running the make commands.
 
 Be sure to have sourced an `OPENAI_API_KEY` to allow for LLM generation.
 
