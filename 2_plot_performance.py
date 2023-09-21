@@ -81,8 +81,6 @@ def main():
     plt.savefig("pass_at_one_heatmap.png")
     plt.show()
 
-    
-
 
 if __name__ == "__main__":
     main()
