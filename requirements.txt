@@ -1,0 +1,5 @@
+matplotlib
+numpy
+langchain
+openai
+-e ./human-eval/
