@@ -5,7 +5,7 @@ This repo utilizes the OpenAI `human-eval` dataset to determine optimal values f
 Through multi-threading at the level of parameter combinations, `human-eval` problem solution generation, and solution `eval` evaluation this benchmark runs in under 30 seconds.
 
 ## Example run
-We include an example run for different values of `temperature` and `top_p` ranging from `0.0` to `1.0` with a step size of `0.2`. Check the `CONFIG` section in [1_run_eval.py](1_run_eval.py) to run the test for different ranges.
+We include an example run for different values of `temperature` and `top_p` ranging from `0.0` to `1.0` with a step size of `0.2`. Check the `CONFIG` section in [1_run_eval.py](1_run_eval.py) to run the test for different ranges. Note `DEBUG` is enabled by default which reduces the combinations and problems that are evaluated (to avoid accidentally consuming a lot of OpenAI credits).
 
 ![pass@1 peformance plot for various values of temperature and top_p](images/plot-0.0-1.0-0.2-36-combinations.png)
 
