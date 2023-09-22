@@ -1,6 +1,6 @@
 # OpenAI's human-eval sampling benchmark
 
-This repo utilizes the OpenAI `human-eval` dataset to determine optimal values for the `temperature` and `top_p` parameters when sampling solutions from the `GPT-4` model for an instruction guided code generation task.
+This repo utilizes the OpenAI `human-eval` dataset to determine optimal values for the `temperature` and `top_p` parameters when sampling solutions from the `gpt-3.5-turbo` model for an instruction guided code generation task.
 
 Through multi-threading at the level of parameter combinations, `human-eval` problem solution generation, and solution `eval` evaluation this benchmark runs in under 30 seconds.
 
