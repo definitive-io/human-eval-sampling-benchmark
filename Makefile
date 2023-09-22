@@ -7,9 +7,9 @@ default: clean install run-bench plot
 
 clean:
 	rm -r data || true
-	mkdir -p data
 
 install:
+	mkdir -p data
 	if [ ! -d "human-eval" ]; then \
 		git clone https://github.com/definitive-io/human-eval; \
 	fi
